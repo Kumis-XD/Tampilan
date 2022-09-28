@@ -39,8 +39,8 @@ mv bash.bashrc $HOME/Tampilan/tmp
 mv profile $HOME/Tampilan/tmp
  sleep 2
 cd tmp
-cp -r bash.bashrc /data/data/com.termux/files/usr/etc
-cp -r profile /data/data/com.termux/files/usr/etc
+mv bash.bashrc /data/data/com.termux/files/usr/etc
+mv profile /data/data/com.termux/files/usr/etc
 cd $HOME
  sleep 1
 rm -rf Tampilan
